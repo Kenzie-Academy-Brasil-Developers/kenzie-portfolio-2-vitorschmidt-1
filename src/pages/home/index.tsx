@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/https://github.com/Kenzie-Academy-Brasil-Developers/kenzie-portfolio-2-vitorschmidt-1`;
 
   return (
     <main id="home">
@@ -44,29 +44,21 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Olá, meu nome é {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              Desensolvedor{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                Web FullStack
               </Text>{" "}
-              creating and{" "}
-              <Text as="span" type="heading1" color="brand1">
-                developing
-              </Text>{" "}
-              projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Conheça um pouco mais sobre as tecnologias que eu utilizo no dia a
+              dia e os projetos que já tive contato!
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
-              </Button>
-              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
+                Projetos
               </Button>
               <Button
                 color="grey5"
@@ -92,12 +84,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Alguns projetos{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  desenvolvidos
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>
